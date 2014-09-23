@@ -277,7 +277,7 @@ SLIDER
 .slider-wrapper {
   height: 700px;
   width: 100%;
-  background-color: #b6e0d8;
+  background-color: #FFB1B6;  /* #b6e0d8 */
   position: relative;
 }
 /* Slogo */
@@ -314,7 +314,7 @@ SLIDER
   top: 0;
   left: 0;
   z-index: 555;
-  background: url(../img/slide-bg.png) 50% 0 no-repeat;
+  background: url(../img/cake-bg.jpg) 50% 0 no-repeat;
   background-size: cover;
 }
 /* Slide Group Text */
@@ -432,7 +432,7 @@ SLIDER
 /* Button Slide */
 .btn-slide {
   border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.2);
+  background: #fff;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
@@ -440,7 +440,7 @@ SLIDER
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   padding: 10px 20px 9px;
-  color: #fff;
+  color: #4bb29f;
   font-size: 11px;
   font-weight: bold;
   text-transform: uppercase;
@@ -451,14 +451,14 @@ SLIDER
   transition: all 0.2s ease-in-out;
 }
 .btn-slide:hover {
-  color: #4bb29f;
-  background: #fff;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
   padding: 10px 25px 9px;
 }
 /* Category Slide */
 .cat-slide-wrapper {
   height: 320px;
-  background: #b6e0d8 url(../img/catx-bg.png) 0 0 fixed;
+  background: #FFB1B6 url(../img/catx-bg.png) 0 0 fixed;
   color: #fff;
 }
 .cat-slide-wrapper .group-cat-text {
@@ -628,6 +628,10 @@ HEADER
 .header-wrapper #header .main-nav .mt-sidebar-toggle-icon.opened {
   opacity: 0.5;
 }
+.nav-wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
 /*---------- 
 SECTION
 ----------*/
@@ -666,13 +670,13 @@ SECTION ABOUT
 .aboutx {
   width: 100%;
   position: relative;
-  background: url(../img/dot.png) 50% 0 repeat-y;
+  background: url() 50% 0 repeat-y;
 }
 .aboutx .about {
-  width: 50%;
-  float: left;
+/*  width: 50%;
+  float: left;*/
   padding: 60px 0 80px;
-  background: url(../img/about-bg.png) right bottom no-repeat;
+  background: url() right bottom no-repeat;
 }
 .aboutx .about .title {
   margin: 0;
