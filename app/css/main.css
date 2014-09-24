@@ -316,15 +316,17 @@ SLIDER
 }
 /* Slide Group Text */
 .slider-wrapper .slide_bg .group-text {
-  color: #eee;
+  color: #fff;
   text-align: center;
-  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  text-shadow: 1px 1px 1px rgba(75, 178, 159, 1);
 }
 .slider-wrapper .slide_bg .group-text h3 {
+  color: #fff;
   margin: 0;
   padding: 0;
   font-size: 42px;
   text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(75, 178, 159, 1);
   font-weight: 300;
   line-height: 1.4;
   letter-spacing: 3px;
@@ -377,8 +379,8 @@ SLIDER
 }
 /* Scroll Down */
 .slider-wrapper .scroll-down {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   line-height: 48px;
   position: absolute;
@@ -437,11 +439,12 @@ SLIDER
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  padding: 10px 20px 9px;
+  padding: 18px 28px 17px;
   color: #fff;
-  font-size: 11px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(75, 178, 159, 1);
   letter-spacing: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -451,7 +454,7 @@ SLIDER
 .btn-slide:hover {
   color: #4bb29f;
   background: #fff;
-  padding: 10px 25px 9px;
+  padding: 18px 32px 17px;
 }
 /* Category Slide */
 .cat-slide-wrapper {

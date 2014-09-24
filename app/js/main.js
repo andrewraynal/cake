@@ -100,6 +100,9 @@
 		$('.scroll-down').smoothScroll({
 			offset: 0
 		});
+		$('.btn-scroll').smoothScroll({
+			offset: 0
+		});
 
 		/*-----------------------------------------------------------------------------------*/
 		/*  SCROLLREVEAL
