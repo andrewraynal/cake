@@ -379,8 +379,8 @@ SLIDER
 }
 /* Scroll Down */
 .slider-wrapper .scroll-down {
-  width: 40px;
-  height: 40px;
+  width: 64px;
+  height: 64px;
   text-align: center;
   line-height: 48px;
   position: absolute;
@@ -391,9 +391,9 @@ SLIDER
   z-index: 888;
   font-size: 0;
   border: 2px solid rgba(255, 255, 255, 0.9);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -401,12 +401,12 @@ SLIDER
 .slider-wrapper .scroll-down:before {
   content: '';
   width: 2px;
-  height: 8px;
+  height: 60px;
   background: rgba(255, 255, 255, 0.6);
   position: absolute;
   left: 50%;
   margin-left: -1px;
-  top: 10px;
+  top: 0px;
 }
 .slider-wrapper .scroll-down:after {
   content: '';
