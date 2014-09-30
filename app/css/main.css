@@ -377,6 +377,9 @@ SLIDER
 .slider-wrapper .carousel-slide .owl-controls .owl-page span.active {
   background: #fff;
 }
+.owl-wrapper {
+  max-width: 100%;
+}
 /* Scroll Down */
  .slider-wrapper .scroll-down {
   width: 18px;
